@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Holidays</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Gogaga Holidays</h1>
+                <span class="menu-icon">&#9776;</span> <!-- Hamburger Icon -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#flightBooking">Flights</a></li>
+                    <li><a href="#hotelBooking">Hotels</a></li>
+                    <li><a href="#packageCollections">Collections</a></li>
+                    <li><a href="" class="btn">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+      
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Gogaga Holidays</h1>
+            <p><span>"  </span>Your ultimate destination for unforgettable adventures.<span>  "</span></p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <nav class="navbar">
+        <!-- Repeat this block for each category -->
+        <a href="#packages" class="nav-item">
+            <img src="holiday_image.png" alt="packages" class="nav-icon">
+            <span>Packages</span>
+        </a>
+        <a href="#flightBooking" class="nav-item">
+          <img src="airplanes.png" alt="Flights" class="nav-icon">
+          <span>Flights</span>
+        </a>
+        <a href="#hotelBooking" class="nav-item">
+          <img src="hotel.png" alt="Hotels" class="nav-icon">
+          <span>Hotels</span>
+        </a>
+        
+        <a href="#packageCollections" class="nav-item">
+            <img src="suitcase.png" alt="collections" class="nav-icon">
+            <span>Collections</span>
+        </a>
+        <!-- ... -->
+      </nav>
+
+
+
+<!-- Holiday Packages -->
+
+    <section class="packages">
+        <div class="container">
+            <h2 id="packages" class="side-heading">Holiday Packages</h2>
+            <div class="package-deals">
+                <div class="deal">
+                    <img src="kerala.jpeg" alt="North Goa Luxury Package">
+                    <h3>North Goa <br>Luxury Package</h3>
+                    <hr></hr>
+                    <p class="day-count">3 Nights/4 Days</p>
+                    <div class="price-container">
+                        <p class="price-crossed">₹19882</p>
+                        <p class="price">₹15999</p>
+                    </div>
+                    <p class="per-person">Per Person on twin sharing</p>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+
+                <div class="deal">
+                    <img src="bangkok.jpeg" alt="Bangkok Luxury Package">
+                    <h3>Bangkok<br>Luxury Package</h3>
+                    <hr></hr>
+                    <p class="day-count">5 Nights/6 Days</p>
+                    <div class="price-container">
+                        <p class="price-crossed">₹79999</p>
+                        <p class="price">₹59999</p>
+                    </div>
+                    <p class="per-person">Per Person</p>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+
+                <div class="deal">
+                    <img src="dubai.jpg" alt="Dubai Luxury Package">
+                    <h3>Dubai<br>Luxury Package</h3>
+                    <hr></hr>
+                    <p class="day-count">6 Nights/7 Days</p>
+                    <div class="price-container">
+                        <p class="price-crossed">₹78999</p>
+                        <p class="price">₹98999</p>
+                    </div>
+                    <p class="per-person">Per Person</p>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="package-deals">
+                <div class="deal">
+                    <img src="japan.jpg" alt="Japan Luxury Package">
+                    <h3>Japan<br>Luxury Package</h3>
+                    <hr></hr>
+                    <p class="day-count">7 Nights/8 Days</p>
+                    <div class="price-container">
+                        <p class="price-crossed">₹115000</p>
+                        <p class="price">₹109999</p>
+                    </div>
+                    <p class="per-person">Per Person</p>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+
+                <div class="deal">
+                    <img src="mysore-palace.jpg" alt="Mysore Luxury Package">
+                    <h3>Mysore Palace<br>Premium Package</h3>
+                    <hr></hr>
+                    <p class="day-count">2 Nights/3 Days</p>
+                    <div class="price-container">
+                        <p class="price-crossed">₹19999</p>
+                        <p class="price">₹16999</p>
+                    </div>
+                    <p class="per-person">Per Person on on twin sharing</p>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+
+                <div class="deal">
+                    <img src="ladak.jpg" alt="Dubai Luxury Package">
+                    <h3>Ladakh<br>Premium Package</h3>
+                    <hr></hr>
+                    <p class="day-count">3 Nights/4 Days</p>
+                    <div class="price-container">
+                        <p class="price-crossed">₹29000</p>
+                        <p class="price">₹19999</p>
+                    </div>
+                    <p class="per-person">Per Person</p>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- Flight Booking -->
+<section class="flight">
+    <div class="container">
+        <h2 class="side-heading" id="flightBooking">Flight Booking</h2>
+        <div class="flight-container">
+            <div class="flight-image">
+                <img src="Flight Booking.jpg" alt="Flight">
+            </div>
+            <div class="flight-booking-form">
+                <form action="#" method="post">
+                <label for="departure">Departure:</label>
+                <input type="text" id="departure" name="departure" placeholder="Enter Departure City">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter Destination City">
+                <label for="dates">Dates:</label>
+                <input type="date" id="dates" name="dates">
+                <label for="passengers">Passengers:</label>
+                <input type="number" id="passengers" name="passengers" min="1" max="10">
+                <br>
+                <button type="submit" class="button">Search Flights</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    
+<!-- Hotel Booking -->
+    <section class="hotels">
+        <div class="container">
+            <h2 class="side-heading" id="hotelBooking">Hotel Booking</h2>
+            <div class="hotel-container">
+                <div class="hotel-booking-form">
+                    <form>
+                        <!-- Add your form fields here -->
+                        <div class="form-group">
+                            <label for="check-in-date">Check-in Date:</label>
+                            <input type="date" id="check-in-date" name="check-in-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="check-out-date">Check-out Date:</label>
+                            <input type="date" id="check-out-date" name="check-out-date">
+                        </div>
+                        <!-- Add more form fields as needed -->
+                        <button type="submit" class="button">Search Hotels</button>
+                    </form>
+                </div>
+                <div class="image-container">
+                    <img src="hotel_booking.jpg" alt="Hotel Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Package Collections -->
+
+    <section class="collections">
+        <div class="container">
+            <h2 class="side-heading" id="packageCollections">Package Collections</h2>
+            <div class="collection-background">
+                <div class="collection-container">
+                    <div class="collection">
+                        <h2>Adventure Collection</h2>
+                        <p>Explore the world with adrenaline-packed adventures.</p>
+                    </div>
+                    <div class="collection">
+                        <h2>Adventure Escapes</h2>
+                        <p>Experience thrilling adventures in exotic locations around the world.</p>
+                    </div>
+                    <div class="collection">
+                        <h2>Beach Getaways</h2>
+                        <p>Relax and unwind on pristine beaches with crystal-clear waters.</p>
+                    </div>
+                    <div class="collection">
+                        <h2>Cultural Explorations</h2>
+                        <p>Immerse yourself in diverse cultures and traditions across the globe.</p>
+                    </div>    
+                </div>
+
+                <div class="btn-align">
+                    <a href="#" class="btn">View All Collections</a>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gogaga Holidays. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
